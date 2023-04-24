@@ -1,7 +1,7 @@
 version: "3.4"
 services:
   neko:
-    image: "m1k1o/neko:arm-ungoogled-chromium"
+    image: "m1k1o/neko:arm-chromium"
     restart: "unless-stopped"
     shm_size: "16gb"
     ports:
